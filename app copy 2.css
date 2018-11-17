@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+}
+
+input, label {
+    display: block;
+}
+
+main {
+    margin-left: 3em;
+}
+
+button {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+}

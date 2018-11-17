@@ -1,38 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: url('./space.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-/* Class Styles(.) */
+form {
+    padding: 1em;
+    margin: 0 auto;
+    width: 127px;
+    border: 1px solid black;       
+    box-shadow: 7px 4px 36px -4px rgba(0,0,0,0.9);
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+input, label {
+    display: block;
+}
+
+hr {
+    width: 50%;
+}
+
 .text-center {
     text-align: center;
 }
 
-.text-blue {
-    color: blue;
-}
-
 .highlight-yellow {
-    background-color: yellow;
+    background-color: black;
 }
-
-/*h1 {
-    color: #d01313;
-}
-*/
-
-h2 {
-    color: rgba(74, 172, 123, 0.363)
-}
-
-/* IDs (#) Try not to use these often. Use camelCase*/
-#submitButton {
-    background: red;
-}
-
-/* Attributes ([]) */
-[for="email"] {
-    font-weight: bold;
-}
-
-input, label, button, .display-block {
-    display: block;
-}
-
-test

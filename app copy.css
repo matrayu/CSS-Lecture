@@ -1,0 +1,40 @@
+
+/* Class Styles(.) */
+.text-center {
+    text-align: center;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
+
+/*h1 {
+    color: #d01313;
+}
+*/
+
+h2 {
+    color: rgba(74, 172, 123, 0.363)
+}
+
+/* IDs (#) Try not to use these often. Use camelCase*/
+#submitButton {
+    background: red;
+}
+
+/* Attributes ([]) */
+[for="email"] {
+    font-weight: bold;
+}
+
+input, label, button, .display-block {
+    display: block;
+}
+
+button {
+    display: strong;
+}
